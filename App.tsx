@@ -433,7 +433,7 @@ const App: React.FC = () => {
             <h1 className="text-2xl font-black text-white tracking-tighter uppercase leading-none">
               ROGUE<span className="text-red-600">QUEST</span>
             </h1>
-            <h2 className="text-zinc-500 text-[9px] font-bold uppercase tracking-[0.2em] mt-1">
+            <h2 className="text-zinc-500 text-[10px] font-bold uppercase tracking-[0.2em] mt-1">
               {currentTheme.name} — Nível {gameState.level}
             </h2>
             {gameState.tronModeActive && (
